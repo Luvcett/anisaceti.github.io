@@ -28,12 +28,12 @@
   <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <p></p><br><br><br><br><br><br>
-      <h4>The Wedding Of</h4>
+      <h2>The Wedding Of</h2>
       <h1>Annisa & Rifqy</h1><br>
-      <h6>Kepada <span>Bapak/Ibu/Saudara/i, </span></h6>
-      <h5><span></span></h5>
-      <br><a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"><i class="bi bi-envelope-open-heart"></i> Lihat Undangan</a>
-      <br><h6>Mohon Maaf Apabila Terdapat Kesalahan Penulisan Nama/Gelar</h6>
+      <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+      <h3><span></span></h3>
+      <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"><i class="bi bi-envelope-open-heart"></i> Lihat Undangan</a><br>
+      <br><h4>Mohon Maaf Apabila Terdapat Kesalahan Penulisan Nama/Gelar</h4>
     </main>
 
   </section>
@@ -581,7 +581,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     const nama = urlParams.get('n') || '';
     const pronoun = urlParams.get('p') || '';
-    const namaContainer = document.querySelector('.hero h5 span');
+    const namaContainer = document.querySelector('.hero h3 span');
     namaContainer.innerText = `${pronoun} ${nama}`.replace(/ ,$/, ',');
   
     document.querySelector('#nama').value = nama;
