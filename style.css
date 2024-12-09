@@ -93,7 +93,7 @@ body {
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
-    color: var(--bg);
+    color: var(--pink);
     font-family: 'Sacramento';
     font-size: 5rem;
     font-weight: bold;
