@@ -53,6 +53,20 @@
     </main>
 
   </section>
+  <nav class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">Annisa & Rifqy</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Annisa & Rifqy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </nav>
 
     <!-- Navbar Bottom -->
     <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
@@ -596,6 +610,34 @@
         seconds: { singular: 'detik', plural: 'detik' }
       },
     });
+  </script>
+
+    <script>
+    const stickytop = document.querySelector('.sticky-top');
+    const offcanvas = document.querySelector('.offcanvas');
+   
+    offcanvas.addEventListener('show.bs.offcanvas', function() {
+      stickytop.style.overflow = 'visible';
+    });
+
+    offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+      stickytop.style.overflow = 'hidden';
+    });
+     
+  </script>
+
+  <script>
+    const stickytop = document.querySelector('.sticky-top');
+    const offcanvas = document.querySelector('.offcanvas');
+   
+    offcanvas.addEventListener('show.bs.offcanvas', function() {
+      stickytop.style.overflow = 'visible';
+    });
+
+    offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+      stickytop.style.overflow = 'hidden';
+    });
+     
   </script>
 
   <script>
