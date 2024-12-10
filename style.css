@@ -57,26 +57,6 @@ body {
     color: white;
 }
 
-.mynavbar {
-    background-color: rgba(255, 255, 255, 0.3) !important;
-    backdrop-filter: blur(4px);
-}
-
-.mynavbar .offcanvas {
-    height: 100vh;
-}
-
-.mynavbar .navbar-brand,
-.mynavbar .offcanvas-tittle {
-    font-family: 'Sacramento', cursive;
-    font-size: 3.2rem;
-    font-weight: bold;
-}
-
-.mynavbar .nav-link {
-    text-transform: uppercase;
-}
-
 .home {
     background-image: url(foto/28.png);
     background-size: cover;
@@ -418,15 +398,6 @@ footer li {
     .simply-countdown > .simply-section {
         padding: 60px;
         margin: 5px;
-    }
-
-    .mynavbar .nav-link {
-        font-size: 3cm;
-        text-align: center;
-    }
-
-    .sticky-top {
-        overflow: hidden;
     }
 
     .timeline li .timeline-image {
