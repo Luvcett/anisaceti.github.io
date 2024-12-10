@@ -4,10 +4,22 @@
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
+/* Tambahkan ini ke bagian global CSS */
+html, body {
+    overflow-x: hidden; /* Menonaktifkan scroll horizontal */
+    width: 100%;         /* Pastikan elemen body tidak melebihi lebar layar */
+    margin: 0;           /* Menghilangkan margin default */
+    padding: 0;          /* Menghilangkan padding default */
+    box-sizing: border-box; /* Menghindari overflow akibat padding */
+}
+
+
 body {
     font-size: 1.2rem;
     font-family: 'Libre Baskerville', sans-serif;
     min-height: 4000px;
+    /* background-color: green; */
+
 }
 
 .hero::before {
