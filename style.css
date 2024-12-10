@@ -419,6 +419,13 @@ footer li {
         left: -15px;
         right: auto;
     }
+
+    .timeline li .timeline-panel::after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -13px;
+        right: auto;
+    }
 }
 
 /*tablet */
@@ -476,4 +483,4 @@ footer li {
     .timeline li .timeline-panel::after {
         top: 31px;
     }
-}
+}   
