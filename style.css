@@ -156,7 +156,7 @@ body {
 }
 
 .info {
-    background-color: var(--bg);
+    background-color: var(#000000);
     color: white;
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -297,7 +297,7 @@ body {
 }
 
 .rsvp {
-    background-color: var(--bg);
+    background-color: var(#000000);
 }
 
 .rsvp h2 {
