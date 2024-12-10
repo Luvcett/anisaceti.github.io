@@ -345,7 +345,7 @@ footer li {
 
 /* Media Query */
 /* Extra Large */
-@media (max-width: 1000px) {
+@media (max-width: 100px) {
     .home .heart {
         transform: translateX(-50%) translateY(45px);
     }
