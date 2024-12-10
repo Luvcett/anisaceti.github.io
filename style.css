@@ -1,6 +1,6 @@
 :root {
     --pink: #756c71;
-    --bg: #0a0a0a;
+    --bg: #000000;
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .info {
-    background-color: var(#000000);
+    background-color: var(--bg);
     color: white;
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -297,7 +297,7 @@ body {
 }
 
 .rsvp {
-    background-color: var(#000000);
+    background-color: var(--bg);
 }
 
 .rsvp h2 {
